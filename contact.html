@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — DB Media</title>
+<meta name="description" content="Tell DB Media about your project and get a free quote.">
+<meta property="og:title" content="Contact — DB Media">
+<meta property="og:description" content="Tell DB Media about your project and get a free quote.">
+<meta name="theme-color" content="#0B0E17">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="DB Media home"><svg viewBox="0 0 100 94" aria-hidden="true"><circle cx="26" cy="62" r="18" fill="none" stroke="#FFFFFF" stroke-width="11"/><line x1="44" y1="14" x2="44" y2="80" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/><line x1="56" y1="14" x2="56" y2="80" stroke="#8FA2FF" stroke-width="11" stroke-linecap="round"/><circle cx="74" cy="62" r="18" fill="none" stroke="#8FA2FF" stroke-width="11"/></svg><span class="wordmark">db<span> media</span></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="services.html">Services</a>
+      <a href="work.html">Work</a>
+      <a href="index.html#process">Process</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a class="btn btn--primary btn--sm" href="contact.html">Start a project</a>
+    </nav>
+  </div>
+</header>
+<main id="main"><section class="section section--mist" id="start">
+  <div class="container builder">
+    <div class="builder-steps" data-builder>
+      <div class="section-head" style="margin-bottom:0">
+        <span class="eyebrow">Start a project</span>
+        <h1 class="h2">Tell us about your project.</h1>
+        <p class="lead">Pick what you need and we'll come back with ideas and a free quote.</p>
+      </div>
+      <fieldset class="q"><legend>1. What are we building?</legend><div class="filters"><button class="pill pill--accent" type="button" data-group="type" data-value="New website">New website</button><button class="pill pill--accent" type="button" data-group="type" data-value="Website redesign">Website redesign</button><button class="pill pill--accent" type="button" data-group="type" data-value="Mobile app">Mobile app</button><button class="pill pill--accent" type="button" data-group="type" data-value="Web app">Web app</button><button class="pill pill--accent" type="button" data-group="type" data-value="Online store">Online store</button></div></fieldset>
+      <fieldset class="q"><legend>2. Must-have features <span>(pick any)</span></legend><div class="filters"><button class="pill" type="button" data-group="features" data-value="Mobile-friendly design">+ Mobile-friendly design</button><button class="pill" type="button" data-group="features" data-value="Online booking">+ Online booking</button><button class="pill" type="button" data-group="features" data-value="Payments / donations">+ Payments / donations</button><button class="pill" type="button" data-group="features" data-value="Blog / news">+ Blog / news</button><button class="pill" type="button" data-group="features" data-value="Member logins">+ Member logins</button><button class="pill" type="button" data-group="features" data-value="Events calendar">+ Events calendar</button><button class="pill" type="button" data-group="features" data-value="Email signup">+ Email signup</button><button class="pill" type="button" data-group="features" data-value="SEO setup">+ SEO setup</button></div></fieldset>
+      <fieldset class="q"><legend>3. When do you want to launch?</legend><div class="filters"><button class="pill" type="button" data-group="time" data-value="ASAP">ASAP</button><button class="pill" type="button" data-group="time" data-value="1–2 months">1–2 months</button><button class="pill" type="button" data-group="time" data-value="Flexible">Flexible</button></div></fieldset>
+    </div>
+    <aside class="summary" aria-live="polite">
+      <div class="form-part">
+        <span class="label">Your project</span>
+        <div class="type" data-out="type">New website</div>
+        <div class="chosen" data-out="features"></div>
+        <div style="font-size:15px;color:var(--muted-dark)">Launch: <strong style="color:#fff" data-out="time">1–2 months</strong></div>
+        <form novalidate style="display:flex;flex-direction:column;gap:18px">
+          <div class="field"><label for="q-name">Name</label><input id="q-name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="q-email">Email</label><input id="q-email" name="email" type="email" autocomplete="email" required></div>
+          <div class="field"><label for="q-details">Anything else?</label><textarea id="q-details" name="details" rows="4"></textarea></div>
+          <button class="btn btn--primary" type="submit">Get my free quote →</button>
+        </form>
+        <p class="note">Or email [YOUR EMAIL] · [YOUR PHONE]</p>
+      </div>
+      <div class="thanks">
+        <div class="tick"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg></div>
+        <h3>Thanks — almost there.</h3>
+        <p>Your email app should open with your project details filled in. Hit send and we'll be in touch with next steps and a free quote.</p>
+        <button class="btn btn--ghost btn--sm" type="button" data-reset style="align-self:flex-start">Start another</button>
+      </div>
+    </aside>
+  </div>
+</section>
+<section class="section"><div class="container split"><div class="section-head" style="margin:0"><span class="eyebrow">Get in touch</span><h2 class="h2">Prefer to talk?</h2><p class="lead">Reach out directly and we'll get back to you quickly.</p></div>
+<ul class="contact-list"><li><strong>Email</strong> [YOUR EMAIL]</li><li><strong>Phone</strong> [YOUR PHONE]</li><li><strong>Based in</strong> [YOUR CITY]</li></ul></div></section></main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-cta">
+      <h2>Have an idea? <span>Let's build it.</span></h2>
+      <a class="btn btn--primary" href="contact.html">Start a project →</a>
+    </div>
+    <div class="footer-bottom">
+      <a class="brand" href="index.html" aria-label="DB Media home"><svg viewBox="0 0 100 94" aria-hidden="true"><circle cx="26" cy="62" r="18" fill="none" stroke="#FFFFFF" stroke-width="11"/><line x1="44" y1="14" x2="44" y2="80" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/><line x1="56" y1="14" x2="56" y2="80" stroke="#8FA2FF" stroke-width="11" stroke-linecap="round"/><circle cx="74" cy="62" r="18" fill="none" stroke="#8FA2FF" stroke-width="11"/></svg><span class="wordmark">db<span> media</span></span></a>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="services.html">Services</a>
+        <a href="work.html">Work</a>
+        <a href="index.html#process">Process</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <p class="small">© <span data-year>2026</span> DB Media. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
