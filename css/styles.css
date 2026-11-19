@@ -67,7 +67,7 @@ p { margin: 0; }
 .site-header .container { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 68px; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
 .brand:hover { color: #fff; }
-.brand svg { width: 34px; height: 32px; }
+.brand svg { width: 46px; height: 32px; }
 .wordmark { font-family: var(--display); font-size: 23px; letter-spacing: -.04em; font-weight: 700; }
 .wordmark span { font-weight: 400; }
 .nav { display: flex; align-items: center; gap: 28px; }

@@ -1,6 +1,6 @@
-# DB Media — website
+# BDP Media — website
 
-Static website for **DB Media**, a web & app development firm. Plain HTML, CSS and JavaScript — no build step. Upload the folder to any web host (or the web root on your Linux server) and it runs.
+Static website for **BDP Media**, a web & app development firm. Plain HTML, CSS and JavaScript — no build step. Upload the folder to any web host (or the web root on your Linux server) and it runs.
 
 ## Pages
 
@@ -23,5 +23,7 @@ Shared files: `css/styles.css`, `js/main.js`, `images/`.
 ## Credits
 
 - Photo in "Take Your Idea to the Masses": [Vitaly Gariev on Unsplash](https://unsplash.com/photos/woman-working-on-a-laptop-in-a-modern-office-WrlIRaC9t-A) (Unsplash License).
-- Portfolio screenshots are of sites designed by DB Media: patriceambroise.com, breakingthroughroadblocks.org, igotohim.com.
+- Portfolio screenshots are of sites designed by BDP Media: patriceambroise.com, breakingthroughroadblocks.org, igotohim.com, 2shadytinting.com.
 - Fonts: Space Grotesk and Inter via Google Fonts.
+
+> `images/2shadytinting.jpg` is a placeholder card — replace it with a real 788×591 screenshot of the site's homepage.
